@@ -3,12 +3,12 @@ var ejs = require('ejs');
 var fs = require('fs');
 
 var dataHashesObj = {
-    sha1:"025b39d81c6b0ab0aebbd9d8bf3d5af0f15b4983", 
-    submissionid:"ae2b7ebb-43c6-e511-80cc-ecf4bbc8e3d5", 
+    sha1:"a1235659i79i7956i97056y65", 
+    submissionid:"b1-b1b-b1-b11", 
     itemname:"invoice.doc", 
     itemext:"doc", 
-    firstseen:"30/01/2016 19:36", 
-    detections:"PWS:Win32/Fareit"};
+    firstseen:"today", 
+    detections:"Win32/Malware"};
 
 http.createServer(function(req,res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
